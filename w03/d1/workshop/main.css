@@ -1,0 +1,28 @@
+.box {
+  height: 800px;
+}
+.pic{}
+img{ border-radius: 20%;
+display:block;
+position:absolute;
+margin-top: 100px;
+margin-bottom: 300px;
+margin-left: 300px;
+margin-right:200px;
+width: 500px;
+height: 500px;}
+#one {
+  background-color: #9C27B0;
+}
+
+#two{
+  background-color: #03A9F4;
+}
+
+#three {
+  background-color: #009688;
+}
+
+#four {
+  background-color: #00BCD4;
+}
