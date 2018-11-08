@@ -1,8 +1,15 @@
 .box {
   height: 800px;
 }
-.pic{}
-img{ border-radius: 20%;
+.textRight{
+  positon:absolute;
+
+margin-right: 500px;
+text-align:justify;
+
+}
+img{
+  border-radius: 20%;
 display:block;
 position:absolute;
 margin-top: 100px;
