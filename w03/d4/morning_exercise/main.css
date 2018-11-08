@@ -1,0 +1,20 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  background: rebeccapurple;
+}
+
+#box {
+  width: 500px;
+  margin: 200px auto;
+  text-align: center;
+}
+
+button {
+  background: tomato;
+  border: none;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+}
