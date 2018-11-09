@@ -9,13 +9,10 @@ const quotes = [
 ];
 
 function randomQuote(){
-  // target or select element
-  let quoteElement = document.getElementById('quote');
-  //get a random index from the array
-  let randomNumber = Math.floor(Math.random() * quotes.length);
-  //manipulate element
-  quoteElement.innerHTML = quotes[randomNumber];
-  console.log(quotes);
+  let quoteElement = document.getElementsId('quote');
+
+    quoteElement.innerHTML = quote[    [Math.floor(Math.random()*myArray.length  )]]
+math.random
 }
 
 let button = document.querySelector('button');
