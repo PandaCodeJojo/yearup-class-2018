@@ -2,12 +2,15 @@ require 'faker'
 require './student'
 require './classroom'
 require './grade'
+require './reportcard'
 
 # Our four classrooms for the first years
 @A = Classroom.new("1A")
 @B = Classroom.new("1B")
 @C = Classroom.new("1C")
 @D = Classroom.new("1D")
+
+#adds grades for each subject
 
 def genStudent
   s = Student.new(Faker::Name::name, rand(11..20))
@@ -33,14 +36,14 @@ end
 end
 
 # Check the rosters
-# @A.roster
-# puts ""
-# @B.roster
-# puts ""
-# @C.roster
-# puts ""
-# @D.roster
-# puts ""
+ @A.roster
+puts ""
+@B.roster
+puts ""
+@C.roster
+puts ""
+@D.roster
+puts ""
 
 
 ############################################################

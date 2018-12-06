@@ -8,10 +8,11 @@ class Classroom
   end
 
   def addStudent(student)
-    if @students[student.name]
+    puts @students.inspect
+    if @students.key?(student.name)
       raise "Sorry, #{student} is already in here."
     end
-    @students.push(student)
+    @students[student.name] = student
   end
 
   def roster
